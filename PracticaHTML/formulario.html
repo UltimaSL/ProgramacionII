@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi información</title>
+</head>
+<body style="background-color: rgb(203, 240, 253); margin: 0;">
+
+    <nav>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; background-color: #fff;">
+            <a href="home.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">INICIO</a>
+            <a href="receta_desayuno.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">DESAYUNO</a>
+            <a href="receta_almuerzo.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">ALMUERZO</a>
+            <a href="receta_cena.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">CENA</a>
+        </div>
+    </nav>
+    <div class="container" style="width: 40%; margin: auto; height: -10px; ">
+        <header style="padding: 20px; text-align: center;">
+            <div style="border: 2px solid black; padding: 10px; background-color: rgb(8, 63, 134);">
+                <h1 style="margin: 0; color: white">FORMULARIO DE REGISTRO</h1>
+            </div>
+        </header>
+        <div style="border: 2px solid black; margin-bottom: 20px; background-color: white;">
+            <section id="informacion" style="padding: 20px;">
+                <div style="background-color:  rgb(8, 63, 134); color: white; padding: 10px; margin-bottom: 20px;">
+                    <h2 style="font-size: 24px; margin: 0;">Bienvenido al formulario de registro para nuestro restaurante</h2>
+                </div>
+                <form action="Agradecimiento.html" method="post; "> 
+
+                    <label for="nombre" style="font-size: 18px;">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required style="font-size: 18px;"><br><br>
+
+                    <label for="apellido" style="font-size: 18px;">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required style="font-size: 18px;"><br><br>
+
+                    <label for="cedula" style="font-size: 18px;">Dirección:</label>
+                    <input type="text" id="cedula" name="cedula" required style="font-size: 18px;"><br><br>
+
+                    <label for="cedula" style="font-size: 18px;">Nombre de usuario:</label>
+                    <input type="text" id="cedula" name="cedula" required style="font-size: 18px;"><br><br>
+
+                    <label for="cedula" style="font-size: 18px;">Contraseña de inicio:</label>
+                    <input type="text" id="cedula" name="cedula" required style="font-size: 18px;"><br><br>
+
+                    <label for="sexo" style="font-size: 18px;">Sexo:</label>
+                    <input type="radio" id="sexoF" name="sexo" value="sexoF">
+
+                    <label for="sexoF" style="font-size: 18px;">Femenino</label>
+                    <input type="radio" id="sexoM" name="sexo" value="sexoM">
+
+                    <label for="sexoM" style="font-size: 18px;">Masculino</label><br><br>
+
+                    <label for="reserva" style="font-size: 18px;">Seleccione su reserva antes de:</label><br><br>
+
+                    <input type="checkbox" id="desayuno" name="intereses" value="desayuno" style="font-size: 18px;">
+                    <label for="desayuno" style="font-size: 18px;">Desayuno</label><br>
+
+                    <input type="checkbox" id="almuerzo" name="intereses" value="almuerzo" style="font-size: 18px;">
+                    <label for="almuerzo" style="font-size: 18px;">Almuerzo</label><br>
+
+                    <input type="checkbox" id="cena" name="intereses" value="cena" style="font-size: 18px;">
+                    <label for="cena" style="font-size: 18px;">Cena</label><br><br>
+
+                    <input type="submit" style="background-color:  rgb(8, 63, 134); color: white; padding: 12px 20px; border: none; cursor: pointer; font-size: 20px;" value="Enviar">
+                </form>
+            </section>
+        
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="background-color: white; padding: 10px; width: 100%; height: 100px; text-align: center;">
+        <p style="display: inline-block; margin-right: 100px;">La Ricura PTY</p>
+        <p style="display: inline-block; margin-right: 100px;">Dirección: Chepo</p>
+        <p style="display: inline-block; margin-right: 100px;">Teléfono: +507 346-0000</p>
+        <p style="display: inline-block; margin-right: 100px;">Email: laricura@gmail.com</p>
+    </div>
+
+</body>
+</html>
